@@ -1,52 +1,78 @@
 <html>
   <head>
     <title>Footer</title>
-  </head>
-  
-  <body>
     <style>
-            html, body{
-              margin:0px !important;
-              padding: 0px !important;
-            }
-            footer{
-              background-color:black;
-              margin: 0;
-              padding: 0;
-              width: 100%;
-              display: flex;
-            }
-            .rodape-sooza{
-              padding:10%;
-            }
-            .img_footer{
-			        width:100px;
-            }
-            .text_footer,.link_footer{
-			        font-family:Arial, Helvetica, sans-serif;
-			        color:white;
-			        font:arial;
-            }
-            .link_footer:link,.link_footer:visited,.link_footer:active{
-              color: white;
-            }
-            .link_footer:hover {
-              color: gray;
-            }
-            .link_footer:link,.link_footer:visited,.link_footer:hover,.link_footer:active {
-              text-decoration: none;
-            }
+      html, body{
+      margin:0px !important;
+      padding: 0px !important;
+        }
+      footer{
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        font:arial;
+        }
+        footer a:link,footer a:visited,footer a:active{
+        color: white;
+        text-decoration: none;
+        }
+        footer a:hover{
+          color:gray;
+          text-decoration: none;
+        }
+
+      .rodape-sooza{
+        padding:10%;
+        }
+      .img_footer{
+        width:100px;
+        }
+      .icon_footer{
+        width:20px;
+        margin-right: 10px;
+        }
+        /*
+      .text_footer,.link_footer{
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        font:arial;
+        }
+      .link_footer:link,.link_footer:visited,.link_footer:active{
+        color: white;
+        }
+      .link_footer:hover {
+        color: gray;
+        }
+      .link_footer:link,.link_footer:visited,.link_footer:hover,.link_footer:active {
+        text-decoration: none;
+        }*/
     </style>
+  </head>
+  <body>
+    <main>
+      <!--Website Content-->
+      <img src="Sooza Digital Explosion Logo.png" style="width:100%">
+    </main>
     <footer>
       <div class="rodape-sooza">
-        <img class="img_footer" src="https://soozadigital.com/content/soozadigital_logo.png">
-        <p class="text_footer">Grow with ☕
+        <a href="https://soozadigital.com"><img class="img_footer" src="soozadigital.png"></a>
+        <p>Grow with ☕
           <br>
-        <a class="link_footer" href="https://instagram.com/soozadigital">@soozadigital 🚀</a></p>
+        <a href="https://soozadigital.com/instagram">@soozadigital 🚀</a></p>
           <br>
-        <p class="text_footer"><a class="link_footer" href="https://soozadigital.com/br">Português</a> | <a class="link_footer" href="https://soozadigital.com/us">English</a></p>
+        <p><a href="https://soozadigital.com/br">Português</a> | <a href="https://soozadigital.com/us">English</a></p>
         <!--<p><a href='#'>Terms and Conditions</a></p> <br/>-->
-        <p class="text_footer">© 2024 Sooza Digital</p>
+        <p>© <script>document.write(new Date().getFullYear());</script> Sooza Digital</p>
+          <br>
+        <a href="https://soozadigital.com/news">Check the News</a></p>
+        <a href="https://soozadigital.com/facebook"><img class="icon_footer" src="social_white/facebook.png"></a>
+        <a href="https://soozadigital.com/instagram"><img class="icon_footer" src="social_white/instagram.png"></a>
+        <a href="https://soozadigital.com/twitter"><img class="icon_footer" src="social_white/x.png"></a>
       </div>
     </footer>
   </body>
